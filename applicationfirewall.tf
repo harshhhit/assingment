@@ -67,10 +67,10 @@ resource "aws_wafv2_ip_set" "example" {
   data "aws_wafv2_web_acl" "example" {
   name  = "some-web-acl"
   scope = "REGIONAL"
-###########################waf RULE########################## 
 
   tags = {
     Tag1 = "Value1"
     Tag2 = "Value2"
   }
 }
+###########################waf RULE########################## 
